@@ -1,0 +1,118 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+  color: #BFBAB8;
+	height: 100%;
+	font-size: 12px;
+  text-transform: uppercase;
+}
+.center-block
+{
+  text-align: center;
+}
+.button
+{
+	width: 40;
+}
+.accordion
+{
+	margin:8px;
+	width:70%;
+	font-size:0.9em;
+}
+.fadeimage
+{
+  width: 100%;
+}
+.smallimage
+{
+  width: 150px;
+}
+.fade
+{
+
+}
+.menu
+{
+	margin:8px;
+	width:30%;
+	font-size:0.9em;
+}
+div
+{
+  color: #BFBAB8;
+	padding: 30px 0px 30px 0px;
+}
+.fisheye
+{
+	text-align: center;
+	height: 3px;
+	position: absolute;
+	width: 78%;
+}
+.caps-1
+{
+  color: #BFBAB8;
+  font-weight: 5000;
+  line-height: 32px;
+  text-align: center;
+  font: 300 50px/50px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.caps-2
+{
+  color: #BFBAB8;
+  font-weight: 5000;
+  line-height: 32px;
+  text-align: center;
+  font: 300 30px/30px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.caps-3
+{
+  color: #BFBAB8;
+  font-weight: 5000;
+  line-height: 32px;
+  text-align: center;
+  font: 300 22px/20px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+a.fisheyeItem
+{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	width: 40px;
+	position: absolute;
+	display: block;
+	bottom: 0;
+}
+
+.fisheyeItem img
+{
+	border: none;
+	margin: 5px auto 0 auto;
+	width: 100%;
+}
+.fisheyeItem span
+{
+	display: none;
+	positon: absolute;
+}
+.fisheyeContainter
+{
+	height: 50px;
+	width: 200px;
+	left: 500px;
+	position: absolute;
+}
+.margined-div
+{
+  margin: 20 20 24px;
+  margin-left: 6%;
+}

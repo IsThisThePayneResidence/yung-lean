@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- <title>J A V A S C R I P T</title> -->
+	<script type="text/javascript" src="assets/js/stopwatch.js"></script>
+	<script type="text/javascript" src="assets/js/calculator.js"></script>
+ <title>&#120138; &#120120; &#120123; &#120121; &#120134; &#120144; &#120138;</title>
+ <link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+ <link type="text/css" rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+ <link type="text/css" rel="stylesheet" href="assets/css/bootstrap/bootstrap-theme.min.css">
+</head>
+<body onload="getTime()">
+	<div class="container">
+		<div class="caps-1">Timer</div>
+		<div class="jumbotron col-sm-6 col-sm-offset-3">
+			<div class="caps-1 text-center" id="time"></div>
+		</div>
+		<div class="jumbotron col-sm-6 col-sm-offset-3">
+			<div class="caps-1 text-center row container" id="clicks"></div>
+		</div>
+
+		<div class="caps-1 center-block">Calculator</div>
+		<div class="jumbotron col-sm-6 col-sm-offset-3"><br/>
+			<input class="caps-2 button" type="text" id="expression"/><br/><br/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(1)" value=" 1 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(2)" value=" 2 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(3)" value=" 3 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(4)" value=" 4 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(5)" value=" 5 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(6)" value=" 6 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(7)" value=" 7 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(8)" value=" 8 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(9)" value=" 9 "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(0)" value=" 0 "/><br/><br/>
+			<input class="caps-2 button" type="button" onclick="addCharacter('+')" value=" + "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter('-')" value=" - "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter('*')" value=" * "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter('/')" value=" / "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter('(')" value=" ( "/>
+			<input class="caps-2 button" type="button" onclick="addCharacter(')')" value=" ) "/>
+			<input class="caps-2 button" type="button" onclick="evaluateExpression()" value=" = "/>
+		</div>
+	</div>
+ </body>
+</html>
